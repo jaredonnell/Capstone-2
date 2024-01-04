@@ -22,7 +22,7 @@ body {
     margin-left: 1.5%;
 }
 
-.title > h1 {
+h1 {
     font-family: 'Pacifico', cursive;
     font-size:55.7pt;
     margin-bottom:0;
@@ -93,7 +93,6 @@ body {
 
 img{
     height:175px;
-    float: left;
     margin-left: 75px;
 }
 
@@ -208,4 +207,72 @@ button:hover {
     
 }
 
+@media (max-width:570px) {
 
+    body {
+        background-color: #CCDAE6;
+    }
+
+    .title {
+        bottom:130px;
+    }
+    
+    h1 {
+        font-size: 30pt;
+    }
+
+    .title > h2 {
+        font-size: 18pt;
+    }
+
+    .banner {
+        height:75vh;
+    }
+
+    .me-container {
+        position: relative;
+        bottom:154px;
+        padding-top:75px;
+    }
+
+    .skill-container {
+        position: relative;
+        bottom:154px;
+    }
+
+    img {
+        margin-left:0px;
+    }
+
+    .skate-icon {
+        margin-right:5px;
+    }
+
+    .code > p {
+        font-size:14pt;
+        margin-right: px;
+    }
+
+    .skate > p {
+        font-size:14pt;
+    }
+
+    .contact-container {
+        position: relative;
+        bottom:154px;
+    }
+
+    .con-header {
+        font-size: 1.5rem;
+        margin-top:100px;
+    }
+
+    .con-caption {
+        font-size:16pt;
+    }
+
+    .foot-container {
+        position: relative;
+        bottom:154px;
+    }
+}    
