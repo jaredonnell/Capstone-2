@@ -164,7 +164,7 @@ button {
     background-color: #CCDAE6 ;
     border: 8px solid rgb(87,163,199);
     border-radius: 20px;
-    margin-bottom:100px;
+    margin-bottom:200px;
     transition-property: transform;
     transition-duration: 0.3s;
     transition-timing-function: ease;
@@ -180,6 +180,31 @@ button:hover {
 .foot-container {
     background-color: #CCDAE6;
     display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:50px;
+}
+
+.links {
+    display:flex;
+    justify-content: center;
+    width:100%;
+    margin-bottom: 40px;
+}
+
+.links > a {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-size:18pt;
+    font-weight: 900;
+    color:black;
+}
+
+.vline {
+    width:0px;
+    border-right:1px solid black;
+    margin: 0 10px 0 10px
     
 }
 
