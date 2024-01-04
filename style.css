@@ -207,7 +207,7 @@ button:hover {
     
 }
 
-@media (max-width:570px) {
+@media (max-width:600px) {
 
     body {
         background-color: #CCDAE6;
@@ -227,6 +227,14 @@ button:hover {
 
     .banner {
         height:75vh;
+    }
+
+    .caption {
+        font-size:16pt;
+    }
+
+    .about {
+        font-size: 14pt
     }
 
     .me-container {
@@ -274,5 +282,10 @@ button:hover {
     .foot-container {
         position: relative;
         bottom:154px;
+    }
+
+    .copy {
+        position: relative;
+        top: 150px;
     }
 }    
